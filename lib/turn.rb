@@ -3,7 +3,7 @@ def turn(board)
   input = gets.strip
   valid_move?(board, input_to_index(input))
   if valid_move?(board, input_to_index(input))
-    move
+    move(board, input.to_i - 1)
   end
 end
 

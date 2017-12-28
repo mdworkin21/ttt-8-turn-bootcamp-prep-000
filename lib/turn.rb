@@ -1,6 +1,6 @@
 def turn(board)
   pleaseEnter
-  input_to_index(board)
+  input_to_index(input)
 end
 
 def pleaseEnter

@@ -1,5 +1,5 @@
 def turn(board)
-
+  pleaseEnter
 end
 
 def pleaseEnter

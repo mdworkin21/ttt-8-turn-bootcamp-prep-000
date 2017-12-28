@@ -4,11 +4,12 @@ def turn(board)
   place = input_to_index(input)
     if valid_move?(board, place)
         move(board, place)
-          return display_board(board)
+    elsif !valid_move?(board, place)
+        turn(board)
+    end
+        return display_board(board)
 
  end
-end
-
 
 
 
